@@ -1,6 +1,6 @@
 package eje3;
 
-public class HumanWorker implements Worker {
+public class HumanWorker implements Work,Eat {
     @Override
     public void work() {
         // Lógica para trabajar
